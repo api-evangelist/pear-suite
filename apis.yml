@@ -1,7 +1,26 @@
 aid: pear-suite
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/pear-suite.png
 name: Pear Suite
-description: Pear Suite is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Pear Suite is a care management platform built for community health workers,
+  care navigators, doulas, and community-based organizations, describing itself
+  as an operating system for community-based work. The platform provides custom
+  assessments and care pathways, goal and outcome tracking, patient
+  communication over phone, SMS, and encrypted email, client and
+  population-level analytics, and billing and claims integration, connecting
+  community health initiatives with health plans and health systems. Pear Suite
+  reports serving 2,500+ community workers across 300+ organizations nationwide.
 url: https://raw.githubusercontent.com/api-evangelist/pear-suite/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Care Management
+- Community Health Workers
+- Care Coordination
+- Medicaid
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,22 @@ maintainers:
 common:
 - type: Website
   url: https://pearsuite.com/
+- type: Blog
+  url: https://www.pearsuite.com/resources
+- type: Pricing
+  url: https://www.pearsuite.com/pricing/
+- type: Support
+  url: https://www.pearsuite.com/contact/
+- type: PrivacyPolicy
+  url: https://www.pearsuite.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.pearsuite.com/terms-of-service/
+- type: Login
+  url: https://app.pearsuite.com/
+- type: DomainSecurity
+  url: security/pear-suite-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
